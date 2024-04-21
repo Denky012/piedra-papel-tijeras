@@ -1,0 +1,132 @@
+.text,
+footer {
+  font-size: 20px;
+}
+
+.espacio {
+  padding-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#eleccionPlayer,
+#eleccionComputer,
+#resultadoRonda,
+.titulo,
+.cuerpo,
+.resultados {
+  width: auto;
+  height: auto;
+}
+
+.titulo,
+footer,
+#ganador {
+  font-family: "Bebas Neue", sans-serif;
+  justify-content: center;
+}
+
+main,
+.titulo,
+.cuerpo,
+.opciones,
+.ronda,
+footer {
+  display: flex;
+}
+
+main {
+  justify-content: center;
+  background-color: black;
+  padding: 30px;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+}
+
+.titulo {
+  align-items: center;
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  background-color: bisque;
+}
+
+span {
+  font-weight: 1000;
+}
+
+.cuerpo {
+  flex-direction: column;
+  background-color: white;
+}
+
+.opciones {
+  height: auto;
+  padding: 20px;
+  gap: 20px;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eleccion {
+  height: 250px;
+  width: 250px;
+  border: solid black 2px;
+}
+
+img,
+button {
+  height: 100%;
+  width: 100%;
+}
+
+img:hover {
+  filter: contrast(110%);
+}
+
+.relleno {
+  height: 250px;
+  background-color: #e1e1e2;
+}
+
+footer {
+  height: 130px;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.ronda {
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: blanchedalmond;
+  border-top: 4px solid black;
+}
+
+#eleccionPlayer,
+#eleccionComputer,
+#resultadoRonda {
+  text-align: center;
+}
+
+#ganador {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}

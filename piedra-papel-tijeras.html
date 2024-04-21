@@ -4,10 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="/js/switch.js" defer></script>
   </head>
   <body>
-    <script src="/js/switch.js"></script>
-
-    <!--<script src="/js/if.js"></script>*/ TAMBIEN PUEDES USAR ESTE METODO-->
+    <header>Hola, soy el encabezado</header>
+    <div class="titulo">
+      <h1>¡BIVENVIDO A MI PIEDRA, PAPEL, Y TIJERAS!</h1>
+    </div>
+    <main>
+      <div class="cuerpo">
+        <div class="opciones">
+          <div class="eleccion">
+            <button type="button" id="piedra"><img src="recursos/piedra.png" alt="piedra" /></button>
+          </div>
+          <div class="eleccion">
+            <button type="button" id="papel"><img src="recursos/papel.png" alt="papel" /></button>
+          </div>
+          <div class="eleccion">
+            <button type="button" id="tijeras"><img src="recursos/tijera.png" alt="tijeras" /></button>
+          </div>
+        </div>
+        <div class="resultados">
+          <div id="ganador"></div>
+          <div class="ronda">
+            <div id="eleccionPlayer"></div>
+            <div id="eleccionComputer"></div>
+            <div id="resultadoRonda"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="relleno"></div>
+    <footer>@OdinProject → Revision del piedra papel y tijeras → 18/02/2024</footer>
   </body>
 </html>
